@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["dom", "es2020"],
+    "module": "esnext",
+    "noEmit": true,
+    "typeRoots": ["./src/@types", "./node_modules/@types"],
+    "types": ["@types/jest"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["../../node_modules", "node_modules", "build"]
+}

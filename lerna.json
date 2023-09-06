@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "packages/*",
+    "packages/libs/*",
+    "packages/*-portal/shared/*",
+    "packages/*-portal/modules/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "useNx": true
+}

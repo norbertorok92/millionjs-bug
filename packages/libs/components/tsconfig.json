@@ -1,0 +1,16 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "build",
+    "rootDir": "src",
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "build",
+    "module": "esnext",
+    "lib": ["dom", "es2020"],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "typeRoots": ["./src/@types", "./node_modules/@types", "../../../node_modules/@types"]
+  },
+  "include": ["src"],
+  "exclude": ["**/node_modules/**", "node_modules", "build"]
+}

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    // strictness settings
+    "strict": false,
+    "alwaysStrict": false,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "useUnknownInCatchVariables": false,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    // strictness settings
+    "module": "esnext",
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "types": ["@types/jest", "@types/node", "@testing-library/jest-dom"],
+    "target": "es6",
+    "lib": ["dom", "es2020"]
+  },
+  "include": ["packages/**/*", "deploy/**/*", "./jest-setup.ts", "./cz.config.js"],
+  "exclude": ["**/node_modules"]
+}

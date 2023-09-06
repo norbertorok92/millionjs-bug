@@ -1,0 +1,15 @@
+{
+  "extends": "nx/presets/npm.json",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build"
+        ],
+        "cacheDirectory": "packages/.nx.cache",
+        "accessToken": "NX_CLOUD_ACCESS_TOKEN"
+      }
+    }
+  }
+}

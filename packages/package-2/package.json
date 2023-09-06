@@ -1,0 +1,19 @@
+{
+  "name": "@million-bug/package-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "CI=false react-app-rewired build",
+    "test": "react-app-rewired test",
+    "inject": "react-inject-env set"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@million-bug/components": "*"
+  }
+}

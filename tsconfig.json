@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@mtfx/*": ["packages/libs/*/src", "packages/package-1/*/src", "packages/package-2/*/src"]
+    }
+  }
+}
